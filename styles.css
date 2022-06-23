@@ -1,0 +1,97 @@
+html, body {
+  margin:0px;
+  padding:0px;
+  height: 100%;
+  font-family: 'Josefin Slab', serif;
+}
+
+/* fixed background */
+.wrapper {
+  height: 100%;
+}
+
+.fixed-bg {
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: scale-down;
+}
+
+.scroll-bg {
+  background-color: white;
+  font-size: 2rem;
+  color:black;
+  font-weight: bolder;
+  padding: 0 2rem;
+  display: block;
+  text-align: justify;
+}
+
+/* first section */
+
+.bg-1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1280px-Great_Wave_off_Kanagawa2.jpg");
+}
+
+/* third section */
+
+.bg-2 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Fine_Wind%2C_Clear_Morning_by_Hokusai_%28Shimane_Art_Museum%29.jpg/1280px-Fine_Wind%2C_Clear_Morning_by_Hokusai_%28Shimane_Art_Museum%29.jpg');
+}
+
+/* fifth section */
+
+.bg-3 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Katsushika_Hokusai%2C_tramonto_presso_il_ponte_ryogokubashi_dall%27imbarcadero_ommayagashi%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg/1280px-Katsushika_Hokusai%2C_tramonto_presso_il_ponte_ryogokubashi_dall%27imbarcadero_ommayagashi%2C_dalla_serie_delle_36_vedute_del_monte_fuji%2C_1831_ca.jpg');
+}
+
+/* headline */
+a {
+  text-decoration: none;
+  font-family: 'Josefin Slab', serif;
+  color:white;
+  font-weight: lighter;
+}
+
+#title {
+  font-family: 'Josefin Slab', serif;
+  font-size: 10rem;
+  float: right;
+  margin:0;
+  padding: 1rem 1rem;
+  border-radius: 15px;
+  transition: 1.5s;
+  color:white;
+}
+
+#title:hover {
+    background-color: rgb(199,0,37);
+    transform: scale(0.7);
+    transform-origin: right;
+}
+
+/* content */
+ h2 {
+   margin:0;
+   margin-right:1rem;
+   float:left;
+   font-size: 4rem;
+ }
+
+img {
+  max-width: 7rem;
+  border-radius: 30px;
+  /* height:7rem; */
+}
+
+.bottom-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
